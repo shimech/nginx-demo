@@ -3,14 +3,32 @@
 ## 環境
 
 - macOS Catalina 10.15.4
-- nginx 1.17.10
+- Docker 19.03.8
 
 ## コマンド一覧
+
+### コンテナのビルド
+
+```shell
+$ make build
+```
 
 ### サーバの起動
 
 ```shell
 $ make start
+```
+
+### サーバの停止
+
+```shell
+$ make stop
+```
+
+### ページを開く
+
+```shell
+$ make open
 ```
 
 ## 参考

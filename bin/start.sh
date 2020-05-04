@@ -1,3 +1,3 @@
 #!/bin/sh
 
-nginx -c $PWD/etc/nginx.conf
+docker run -it --rm --name nginx-demo -d -p 8888:80 nginx
