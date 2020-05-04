@@ -1,3 +1,3 @@
 #!/bin/sh
 
-nginx -c /Users/shuntaro/Documents/nginx-demo/etc/nginx.conf
+nginx -c $PWD/etc/nginx.conf
